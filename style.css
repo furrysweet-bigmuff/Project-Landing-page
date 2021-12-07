@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.nav-wrap {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 30px;
+}
+
+.nav li:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.disclaimer-wrap {
+    padding: 80px 0 120px;
+    display: flex;
+    align-items: center;
+}
+
+.disclaimer {
+    padding-right: 60px;
+}
+
+.disclaimer h1 {
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAf8;
+}
+
+.disclaimer .text {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 200;
+}
+
+.disclaimer button {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #FFF;
+    border-radius: 15px;
+    background-color: #3882F6;
+    border: none;
+}
+
+.img {
+    width: 580px;
+    height: 237px;
+    flex: 0 0 auto;
+    text-align: center;
+    line-height: 237px;
+    color: #F9FAf8;
+    background-color: #7e7e7e;
+}
+
+.information {
+    padding: 40px 0 120px;
+}
+
+.information .title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.information .title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.thumbnail .text {
+    width: 160px;
+    text-align: center;
+}
+
+.img-container {
+    margin-bottom: 10px;
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.quote {
+    padding: 120px 0 100px;
+    background-color: #E5E7EB;
+}
+
+.quote em {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action {
+    padding: 120px 0;
+}
+
+.call-to-action {
+    padding: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #3882F6;
+}
+
+.text-wrap .title {
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFF;
+}
+
+.text-wrap .text {
+    color: #FFF;
+}
+
+.action button {
+    padding: 5px 30px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background-color: #3882F6;
+}
+
+footer {
+    padding: 60px 0;
+    background-color: #1F2937;
+}
+
+.copyright {
+    text-align: center;
+    color: #FFF;
+}
